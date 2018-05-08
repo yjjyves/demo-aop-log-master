@@ -15,7 +15,7 @@ import com.myron.common.util.StringUtils;
 
 /**
  * 日志类-记录用户操作行为
- * @author lin.r.x
+ * @author yves
  *
  */
 public class Log implements Serializable{
@@ -31,7 +31,7 @@ public class Log implements Serializable{
 	private String exception;			//异常	
 	private Date operateDate;			//开始时间	
 	private String timeout;			//结束时间	
-	private String userId;			//用户ID	
+	private String userId;			//用户ID	github 测试
 	
     public String getLogId() {
         return StringUtils.isBlank(logId) ? logId : logId.trim();
